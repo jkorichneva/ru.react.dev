@@ -164,110 +164,111 @@ React elements are [immutable](https://en.wikipedia.org/wiki/Immutable_object).
 
 **Пожалуйста, поддерживайте глоссарий в алфавитном порядке.**
 
-| Оригинальный термин | Перевод |
-| ------------------ | ---------- |
-| API reference | справочник API |
-| array | массив |
-| arrow function | стрелочная функция |
-| attribute | атрибут |
-| batch | группа обновлений |
-| batching | группировка |
-| bind | привязка |
-| bug | баг, дефект |
-| bundler | бандлер |
-| cache | кеш |
-| callback | колбэк |
-| camelCase | *camelCase* |
-| child | дочерний |
-| child component | дочерний компонент |
-| class component | классовый компонент |
-| cleanup | сброс (*напр., сбрасываемый эффект, сбросить эффект, сбрасывающая функция*) |
-| code splitting | разделение кода |
-| codemod | codemod-скрипт |
-| commit | фиксация |
-| concurrent mode | конкурентный режим |
-| context | контекст |
-| (un)controlled component | (не)управляемый компонент |
-| cross-cutting concerns | cквозная функциональность |
-| custom | пользовательский (*напр., пользовательские хуки*) |
-| debugging | отладка |
-| destructuring | деструктуризация |
-| development | разработка |
-| development mode | режим разработки |
-| developer tools | инструменты разработки |
-| display name | отображаемое имя |
-| DOM container | DOM-контейнер |
-| effect | эффект |
-| error | ошибка |
-| error boundary | предохранитель |
-| escape hatch | лазейка (*напр., императивные лазейки*) |
-| fallback | запасной |
-| feature | возможность (*менее предпочтительный синоним: функциональность*) |
-| folder | папка |
-| framework | фреймворк |
-| function component | функциональный компонент |
-| helper | вспомогательный(ая); *напр., helper function — вспомогательная функция* |
+| Оригинальный термин       | Перевод |
+|---------------------------| ---------- |
+| API reference             | справочник API |
+| array                     | массив |
+| arrow function            | стрелочная функция |
+| attribute                 | атрибут |
+| batch                     | группа обновлений |
+| batching                  | группировка |
+| bind                      | привязка |
+| bug                       | баг, дефект |
+| bundler                   | бандлер |
+| cache                     | кеш |
+| callback                  | колбэк |
+| camelCase                 | *camelCase* |
+| child                     | дочерний |
+| child component           | дочерний компонент |
+| class component           | классовый компонент |
+| cleanup                   | сброс (*напр., сбрасываемый эффект, сбросить эффект, сбрасывающая функция*) |
+| code splitting            | разделение кода |
+| codemod                   | codemod-скрипт |
+| commit                    | фиксация |
+| concurrent mode           | конкурентный режим |
+| context                   | контекст |
+| (un)controlled component  | (не)управляемый компонент |
+| cross-cutting concerns    | cквозная функциональность |
+| custom                    | пользовательский (*напр., пользовательские хуки*) |
+| debugging                 | отладка |
+| destructuring             | деструктуризация |
+| development               | разработка |
+| development mode          | режим разработки |
+| developer tools           | инструменты разработки |
+| display name              | отображаемое имя |
+| DOM container             | DOM-контейнер |
+| effect                    | эффект |
+| error                     | ошибка |
+| error boundary            | предохранитель |
+| escape hatch              | лазейка (*напр., императивные лазейки*) |
+| fallback                  | запасной |
+| feature                   | возможность (*менее предпочтительный синоним: функциональность*) |
+| folder                    | папка |
+| framework                 | фреймворк |
+| function component        | функциональный компонент |
+| helper                    | вспомогательный(ая); *напр., helper function — вспомогательная функция* |
 | Higher-Order Component(s) | Компонент(ы) высшего порядка |
-| hook | хук *(с маленькой буквы)* *(напр., хук эффекта, хук контекста)* |
-| incapsulation | инкапсуляция |
-| incapsulated | инкапсулированный |
-| key | ключ |
-| lazy initialization | ленивая инициализация |
-| library | библиотека |
-| lifecycle | жизненный цикл |
-| lifecycle method | метод жизненного цикла |
-| lifting state up | подъём состояния, поднимать состояние |
-| local state | внутреннее состояние |
-| lowercase | нижний регистр |
-| mixin | примесь |
-| mock | фиктивный |
-| (im)mutable | (им)мутабельный |
-| (im)mutability | (им)мутабельность |
-| (un)mount | (раз)монтирование |
-| mutate | мутировать |
-| native | нативный |
-| Note | Примечание |
-| online | онлайн |
-| online playground | онлайн-песочница |
-| paint | отрисовка, перерисовка |
-| persistent | персистентность, персистентный |
-| phase | этап (*напр., этап рендеринга, этап фиксации*) |
-| prop | проп *(ед. ч.)* |
-| props | пропсы *(мн. ч.)* |
-| production | продакшен |
-| production mode | продакшен-режим |
-| profiling | профилирование |
-| Profiler | Profiler *(если имеется в виду компонент Profiler)*; профилировщик *(если имеется в виду инструмент для профилирования)*
-| React | React |
-| React element | React-элемент, элемент React |
-| reconciliation | согласование |
-| reducer | редюсер |
-| ref | реф *(ед. ч.)* |
-| refs | рефы *(мн. ч.)* |
-| ref forwarding | перенаправление рефа |
-| render(ing) | рендер, рендерить, отрендерить |
-| renderer | рендерер (*напр., поверхностный рендерер*) |
-| re-render(ing) | (по контексту) рендер, повторный рендер, последующий рендер, отрендерить снова |
-| render prop | рендер-проп *(ед. ч.)* |
-| render props | рендер-пропсы *(мн. ч.)* |
-| reuse | повторное использование |
-| (previous/next) section | (предыдущая/следующая) глава *(только в разделе Основные понятия)* |
-| Set of interactions | Множество «взаимодействий»
-| shallow | поверхностное (сравнение, равенство), поверхностный (рендеринг) |
-| side effect | побочный эффект |
-| snapshot | снимок |
-| state | состояние |
-| stateful component | компонент с состоянием |
-| stateless component | компонент без состояния |
-| suspense | задержка |
-| tag | тег |
-| template literals | шаблонные строки |
-| Tip | Совет |
-| TLDR | Вкратце |
-| Try it on CodePen | Посмотреть на CodePen |
-| tutorial | введение |
-| unidirectional data flow | однонаправленный поток данных |
-| UI | UI |
-| update | обновление |
-| user interface | интерфейс (добавляйте «пользовательский» только если по контексту непонятно) |
-| Warning | Предупреждение |
+| hook                      | хук *(с маленькой буквы)* *(напр., хук эффекта, хук контекста)* |
+| incapsulation             | инкапсуляция |
+| incapsulated              | инкапсулированный |
+| key                       | ключ |
+| lazy initialization       | ленивая инициализация |
+| library                   | библиотека |
+| lifecycle                 | жизненный цикл |
+| lifecycle method          | метод жизненного цикла |
+| lifting state up          | подъём состояния, поднимать состояние |
+| local state               | внутреннее состояние |
+| lowercase                 | нижний регистр |
+| mixin                     | примесь |
+| mock                      | фиктивный |
+| (im)mutable               | (им)мутабельный |
+| (im)mutability            | (им)мутабельность |
+| (un)mount                 | (раз)монтирование |
+| mutate                    | мутировать |
+| native                    | нативный |
+| Note                      | Примечание |
+| online                    | онлайн |
+| online playground         | онлайн-песочница |
+| paint                     | отрисовка, перерисовка |
+| persistent                | персистентность, персистентный |
+| phase                     | этап (*напр., этап рендеринга, этап фиксации*) |
+| prop                      | проп *(ед. ч.)* |
+| props                     | пропсы *(мн. ч.)* |
+| production                | продакшен |
+| production mode           | продакшен-режим |
+| profiling                 | профилирование |
+| Profiler                  | Profiler *(если имеется в виду компонент Profiler)*; профилировщик *(если имеется в виду инструмент для профилирования)*
+| React                     | React |
+| React element             | React-элемент, элемент React |
+| reconciliation            | согласование |
+| reducer                   | редюсер |
+| ref                       | реф *(ед. ч.)* |
+| refs                      | рефы *(мн. ч.)* |
+| ref forwarding            | перенаправление рефа |
+| render(ing)               | рендер, рендерить, отрендерить |
+| renderer                  | рендерер (*напр., поверхностный рендерер*) |
+| re-render(ing)            | (по контексту) рендер, повторный рендер, последующий рендер, отрендерить снова |
+| render prop               | рендер-проп *(ед. ч.)* |
+| render props              | рендер-пропсы *(мн. ч.)* |
+| reuse                     | повторное использование |
+| (previous/next) section   | (предыдущая/следующая) глава *(только в разделе Основные понятия)* |
+| Set of interactions       | Множество «взаимодействий»
+| See more examples below   | Больше примеров использования ниже.
+| shallow                   | поверхностное (сравнение, равенство), поверхностный (рендеринг) |
+| side effect               | побочный эффект |
+| snapshot                  | снимок |
+| state                     | состояние |
+| stateful component        | компонент с состоянием |
+| stateless component       | компонент без состояния |
+| suspense                  | задержка |
+| tag                       | тег |
+| template literals         | шаблонные строки |
+| Tip                       | Совет |
+| TLDR                      | Вкратце |
+| Try it on CodePen         | Посмотреть на CodePen |
+| tutorial                  | введение |
+| unidirectional data flow  | однонаправленный поток данных |
+| UI                        | UI |
+| update                    | обновление |
+| user interface            | интерфейс (добавляйте «пользовательский» только если по контексту непонятно) |
+| Warning                   | Предупреждение |
